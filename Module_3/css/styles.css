@@ -1,0 +1,163 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #DA70D6;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+	line-height: 0.75;
+}
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
+}
+
+#header-nav{
+	border-radius: 0px;
+	background-color: #8B008B;
+}
+
+.navbar-brand {
+
+	font-family: "lora", sans-serif;
+	color: #ffffff
+	padding-top: 10px;
+	font-size: 1.5em;
+	margin-top: 0;
+  margin-bottom: 0;
+   line-height: 1;
+
+}
+
+.navbar-brand:hover{
+	color: solid white;
+}
+
+.navbar-toggle{
+	margin-right: 10px;
+	border: 2px solid white;
+	box-decoration-break: initial;
+	border
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a {  
+	color: #000000;
+	text-align: center;
+	font-size: 1.8em;
+
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+	 }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.text-center{
+	font-family: "lora", sans-serif;
+	color: #ffffff;
+	font-size: 1.5em;
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+
+}
+.row{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #008B8B;
+  font-size: 50px;
+}
+
+.content-box{
+  border: 5px solid black;
+  width: 90%;
+  height: 1000px;
+  margin: 2.5%;
+  color: black;
+  font-size: 25 px;
+  padding: 2%;
+  padding-top: 55px;
+  background-color: #DDA0DD;
+
+}
+
+#info{
+	font-display: auto;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 300;
+}
+.item-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    margin-left: -10px;
+    width: 100%;
+  }
+  .name3{
+    margin-right: 65px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+  .content-name{
+    margin-right: 30px;
+  }
+}
+
+/****** Super extra small devices Only *******/
+@media (max-width: 479px){
+	
+}
